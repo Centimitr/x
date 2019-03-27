@@ -22,3 +22,11 @@ func Max(nums []int) int {
 func Min(nums []int) int {
 	return maxOrMin(nums, true)
 }
+
+func Sum(nums []int) int {
+	var sum int
+	for _, n := range nums {
+		sum += n
+	}
+	return sum
+}
